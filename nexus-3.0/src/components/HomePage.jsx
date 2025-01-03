@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheets/HomePage.css';
 import placementsData from '../assets/placements.json';
-import InfiniteCarousel from './InfiniteCarousel';
+import CompanyGrid from './CompanyGrid';
 
 const HomePage = () => {
     return (
@@ -52,7 +52,7 @@ const HomePage = () => {
                     )}
                 </div>
             </section>
-            <InfiniteCarousel />
+            <CompanyGrid />
         </div>
     );
 };

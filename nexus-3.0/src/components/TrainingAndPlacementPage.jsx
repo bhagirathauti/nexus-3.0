@@ -46,8 +46,6 @@ const TrainingAndPlacementPage = () => {
                         ))}
                     </select>
                 </div>
-
-                {/* Show statistics for the selected year */}
                 <div className="statistics">
                     {selectedYear && (
                         <div className="statistics-info">
@@ -56,8 +54,6 @@ const TrainingAndPlacementPage = () => {
                         </div>
                     )}
                 </div>
-
-                {/* Display placement cards */}
                 <div className="placement-cards">
                     {filteredData.length > 0 ? (
                         <div className="placement-card">

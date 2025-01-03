@@ -88,6 +88,24 @@
         { "name": "Prof. Jonathan Lewis", "subject": "Database Systems" },
         { "name": "Prof. Megan Scott", "subject": "Networking" }
       ]
-    }
+    },
+        {
+          "name": "Pharmaceutical Engineering",
+          "hod": "Dr. Emma Roberts",
+          "messageFromHod": "Our department strives to create professionals who excel in pharmaceutical technology and contribute to healthcare advancements.",
+          "professors": [
+            { "name": "Prof. Richard Black", "subject": "Pharmacology" },
+            { "name": "Prof. Sarah White", "subject": "Pharmaceutical Manufacturing" }
+          ]
+        },
+        {
+          "name": "Printing Engineering",
+          "hod": "Dr. Michael Stewart",
+          "messageFromHod": "The Printing Engineering department focuses on preparing students to be leaders in the field of printing technology, innovation, and production.",
+          "professors": [
+            { "name": "Prof. Daniel Green", "subject": "Print Production Processes" },
+            { "name": "Prof. Olivia Carter", "subject": "Printing Materials and Techniques" }
+          ]
+        }     
   ]
   

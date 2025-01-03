@@ -1,43 +1,75 @@
 [
     {
       "company": "Google",
-      "logo": "/assets/images/google-logo.png"
+      "logo": "/public/logos/google.png"
     },
     {
       "company": "Microsoft",
-      "logo": "/assets/images/microsoft-logo.png"
+      "logo": "/public/logos/microsoft.png"
     },
     {
       "company": "Amazon",
-      "logo": "/assets/images/amazon-logo.png"
+      "logo": "/public/logos/amazon.png"
     },
     {
       "company": "Apple",
-      "logo": "/assets/images/apple-logo.png"
+      "logo": "/public/logos/apple.png"
     },
     {
       "company": "Facebook",
-      "logo": "/assets/images/facebook-logo.png"
+      "logo": "/public/logos/facebook.png"
     },
     {
       "company": "Tesla",
-      "logo": "/assets/images/tesla-logo.png"
+      "logo": "/public/logos/tesla.png"
     },
     {
       "company": "Adobe",
-      "logo": "/assets/images/adobe-logo.png"
+      "logo": "/public/logos/adobe.png"
     },
     {
       "company": "IBM",
-      "logo": "/assets/images/ibm-logo.png"
+      "logo": "/public/logos/ibm.png"
     },
     {
       "company": "Intel",
-      "logo": "/assets/images/intel-logo.png"
+      "logo": "/public/logos/intel.png"
     },
     {
       "company": "Oracle",
-      "logo": "/assets/images/oracle-logo.png"
+      "logo": "/public/logos/oracle.png"
+    },
+    {
+      "company": "Dell",
+      "logo": "/public/logos/dell.png"
+    },
+    {
+      "company": "Samsung",
+      "logo": "/public/logos/samsung.png"
+    },
+    {
+      "company": "BMW",
+      "logo": "/public/logos/bmw.png"
+    },
+    {
+      "company": "TCS",
+      "logo": "/public/logos/tcs.png"
+    },
+    {
+      "company": "Infosys",
+      "logo": "/public/logos/infosys.png"
+    },
+    {
+      "company": "X",
+      "logo": "/public/logos/x.png"
+    },
+    {
+      "company": "Snapdragon",
+      "logo": "/public/logos/snapdragon.png"
+    },
+    {
+      "company": "SONY",
+      "logo": "/public/logos/sony.png"
     }
   ]
   

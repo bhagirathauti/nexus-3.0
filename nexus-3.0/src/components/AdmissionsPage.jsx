@@ -1,11 +1,55 @@
 import React, { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import '../Stylesheets/AdmissionsPage.css';
 
 const AdmissionsPage = () => {
   const [activeTab, setActiveTab] = useState('admission-procedure');
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    course: '',
+  });
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
+  };
+
+  const handleModalOpen = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = () => {
+    if (
+      formData.name &&
+      formData.email &&
+      formData.phone &&
+      formData.course 
+    ) {
+      toast.success('Your enquiry has been submitted successfully!', {
+        duration: 4000,
+        position: 'top-center',
+      });
+      setIsModalOpen(false);
+    } else {
+      toast.error('Please fill in all the fields!', {
+        duration: 4000,
+        position: 'top-center',
+      });
+    }
   };
 
   return (
@@ -134,12 +178,12 @@ const AdmissionsPage = () => {
                   <td>30</td>
                 </tr>
                 <tr>
-                  <td>Power Systems</td>
-                  <td>25</td>
+                  <td>Control Systems</td>
+                  <td>15</td>
                 </tr>
                 <tr>
                   <td><strong>Total Students</strong></td>
-                  <td><strong>130</strong></td>
+                  <td><strong>120</strong></td>
                 </tr>
               </tbody>
             </table>
@@ -149,7 +193,7 @@ const AdmissionsPage = () => {
         {activeTab === 'phd' && (
           <div>
             <h2>PhD Admissions</h2>
-            <p>The PhD program offers research opportunities across a wide array of engineering disciplines. The intake and branches available for admission are as follows:</p>
+            <p>The PhD program offers research opportunities in various fields. The intake and branches available for admission are as follows:</p>
             <table className="intake-table">
               <thead>
                 <tr>
@@ -159,7 +203,7 @@ const AdmissionsPage = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Computer Science & Engineering</td>
+                  <td>Computer Science</td>
                   <td>10</td>
                 </tr>
                 <tr>
@@ -168,19 +212,19 @@ const AdmissionsPage = () => {
                 </tr>
                 <tr>
                   <td>Mechanical Engineering</td>
-                  <td>7</td>
-                </tr>
-                <tr>
-                  <td>Civil Engineering</td>
                   <td>6</td>
                 </tr>
                 <tr>
-                  <td>Electronics & Communication Engineering</td>
-                  <td>9</td>
+                  <td>Civil Engineering</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>Electronics & Communication</td>
+                  <td>5</td>
                 </tr>
                 <tr>
                   <td><strong>Total Students</strong></td>
-                  <td><strong>40</strong></td>
+                  <td><strong>33</strong></td>
                 </tr>
               </tbody>
             </table>
@@ -190,16 +234,64 @@ const AdmissionsPage = () => {
         {activeTab === 'fee-structure' && (
           <div>
             <h2>Fee Structure</h2>
-            <p>Our fee structure is designed to provide quality education while ensuring affordability for all students. Below are the approximate fees for various programs:</p>
+            <p>The fee structure for various programs is as follows:</p>
             <ul>
-              <li><strong>BTech:</strong> ₹1,50,000 per year</li>
+              <li><strong>BTech:</strong> ₹2,00,000 per year</li>
               <li><strong>MTech:</strong> ₹1,80,000 per year</li>
               <li><strong>PhD:</strong> ₹50,000 per year</li>
             </ul>
-            <p>Note: The fees are subject to change. Additional charges may apply for hostel accommodation, examination, and other services.</p>
           </div>
         )}
       </div>
+
+      <button className="enquire-btn" onClick={handleModalOpen}>
+        Enquire for Admissions
+      </button>
+      {isModalOpen && <div className="overlay active"></div>}
+      {isModalOpen && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={handleModalClose}>&times;</span>
+            <h2>Enquire for Admissions</h2>
+            <form onSubmit={(e) => e.preventDefault()}>
+              <label>Name:</label>
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleInputChange}
+              />
+              <label>Email:</label>
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+              />
+              <label>Phone:</label>
+              <input
+                type="text"
+                name="phone"
+                value={formData.phone}
+                onChange={handleInputChange}
+              />
+              <label>Course:</label>
+              <select
+                name="course"
+                value={formData.course}
+                onChange={handleInputChange}
+              >
+                <option value="">Select Course</option>
+                <option value="BTech">BTech</option>
+                <option value="MTech">MTech</option>
+                <option value="PhD">PhD</option>
+              </select>
+              <button type="button" onClick={handleSubmit}>Save</button>
+            </form>
+          </div>
+        </div>
+      )}
+    <Toaster />
     </div>
   );
 };

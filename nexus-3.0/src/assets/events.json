@@ -54,6 +54,14 @@
       "RegistrationStarts": "2025-08-10",
       "RegistrationEnds": "2025-09-20",
       "TicketPrice": 35
-    }
+    },
+    {
+        "EventName": "BITS Cultural summit",
+        "EventDate": "2025-09-27",
+        "EventImage": "https://via.placeholder.com/800x400",
+        "RegistrationStarts": "2025-08-10",
+        "RegistrationEnds": "2025-09-20",
+        "TicketPrice": 35
+      }
   ]
   
