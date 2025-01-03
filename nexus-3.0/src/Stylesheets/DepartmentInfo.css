@@ -51,7 +51,7 @@
   }
   
   .department-card-header h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #007BFF;
   }
   .hod-message {
@@ -59,12 +59,13 @@
   }
   
   .hod-message h4 {
-    font-size: 1.2rem;
-    color: #007BFF;
+    font-size: 1rem;
+    color: #ffF;
+    font-weight: bold;
   }
   
   .hod-message p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: #fff;
     line-height: 1.5;
   }
@@ -74,7 +75,8 @@
   
   .professors h4 {
     font-size: 1.2rem;
-    color: #007BFF;
+    font-weight: bold;
+    color: #fff;
   }
   
   .professors ul {
@@ -84,7 +86,7 @@
   }
   
   .professors li {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #fff;
     margin-bottom: 10px;
   }
@@ -94,7 +96,7 @@
   }
   .department-cards-container p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: #fff;
     margin-top: 20px;
   }

@@ -27,12 +27,12 @@ const DepartmentInfo = () => {
                 <h3>{department.name} Department</h3>
               </div>
               <section className="hod-message">
-                <h4>Message from the HOD</h4>
+                <h4>Message from the HOD :</h4>
                 <p>{department.hod} shares the vision and mission of the department, aiming for excellence in education and research.</p>
                 <p>{department.messageFromHod}</p>
               </section>
               <section className="professors">
-                <h4>Our Professors</h4>
+                <h4>Our Professors :</h4>
                 <ul>
                   {department.professors.map((professor, idx) => (
                     <li key={idx}>
