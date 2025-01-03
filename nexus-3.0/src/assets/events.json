@@ -1,0 +1,59 @@
+[
+    {
+      "EventName": "Annual Tech Fest 2025",
+      "EventDate": "2025-03-15",
+      "EventImage": "https://via.placeholder.com/800x400",
+      "RegistrationStarts": "2025-02-01",
+      "RegistrationEnds": "2025-03-05",
+      "TicketPrice": 25
+    },
+    {
+      "EventName": "AI and ML Conference 2025",
+      "EventDate": "2025-04-20",
+      "EventImage": "https://via.placeholder.com/800x400",
+      "RegistrationStarts": "2025-03-01",
+      "RegistrationEnds": "2025-04-15",
+      "TicketPrice": 50
+    },
+    {
+      "EventName": "Hackathon 2025",
+      "EventDate": "2025-05-10",
+      "EventImage": "https://via.placeholder.com/800x400",
+      "RegistrationStarts": "2025-04-01",
+      "RegistrationEnds": "2025-05-05",
+      "TicketPrice": 20
+    },
+    {
+      "EventName": "Cloud Computing Workshop",
+      "EventDate": "2025-06-18",
+      "EventImage": "https://via.placeholder.com/800x400",
+      "RegistrationStarts": "2025-05-10",
+      "RegistrationEnds": "2025-06-15",
+      "TicketPrice": 30
+    },
+    {
+      "EventName": "Blockchain Summit 2025",
+      "EventDate": "2025-07-22",
+      "EventImage": "https://via.placeholder.com/800x400",
+      "RegistrationStarts": "2025-06-01",
+      "RegistrationEnds": "2025-07-15",
+      "TicketPrice": 40
+    },
+    {
+      "EventName": "Web Development Bootcamp",
+      "EventDate": "2025-08-12",
+      "EventImage": "https://via.placeholder.com/800x400",
+      "RegistrationStarts": "2025-07-01",
+      "RegistrationEnds": "2025-08-05",
+      "TicketPrice": 15
+    },
+    {
+      "EventName": "IoT Innovations Expo",
+      "EventDate": "2025-09-25",
+      "EventImage": "https://via.placeholder.com/800x400",
+      "RegistrationStarts": "2025-08-10",
+      "RegistrationEnds": "2025-09-20",
+      "TicketPrice": 35
+    }
+  ]
+  

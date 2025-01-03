@@ -1,0 +1,100 @@
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .navbar-logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .navbar-link,
+  .logout-button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    background-color: #555;
+  }
+  
+  /* Logout button specific style */
+  .logout-button {
+    color: white;
+    background-color: red; /* Red background */
+    border-radius: 5px;
+  }
+  
+  .logout-button:hover {
+    background-color: darkred; /* Darker red on hover */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .dropbtn:hover {
+    background-color: #555;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #555;
+  }
+  

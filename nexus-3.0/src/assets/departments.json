@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Computer Science",
+      "hod": "Dr. Alice Johnson",
+      "messageFromHod": "Our department focuses on developing future tech leaders and innovators.",
+      "professors": [
+        { "name": "Prof. John Doe", "subject": "Data Structures" },
+        { "name": "Prof. Jane Smith", "subject": "Algorithms" }
+      ]
+    },
+    {
+      "name": "Mechanical Engineering",
+      "hod": "Dr. Mark Taylor",
+      "messageFromHod": "We strive for excellence in designing, building, and testing mechanical systems.",
+      "professors": [
+        { "name": "Prof. Robert Brown", "subject": "Thermodynamics" },
+        { "name": "Prof. Emma White", "subject": "Fluid Mechanics" }
+      ]
+    },
+    {
+      "name": "Civil Engineering",
+      "hod": "Dr. Emily Davis",
+      "messageFromHod": "Our vision is to train engineers who build infrastructure that transforms societies.",
+      "professors": [
+        { "name": "Prof. Chris Green", "subject": "Structural Analysis" },
+        { "name": "Prof. Laura Black", "subject": "Geotechnical Engineering" }
+      ]
+    },
+    {
+      "name": "Electrical Engineering",
+      "hod": "Dr. Michael Lee",
+      "messageFromHod": "We prepare students to lead in the development of electrical systems that power the world.",
+      "professors": [
+        { "name": "Prof. William White", "subject": "Circuit Theory" },
+        { "name": "Prof. Rachel Adams", "subject": "Electromagnetic Fields" }
+      ]
+    },
+    {
+      "name": "Chemical Engineering",
+      "hod": "Dr. David Harris",
+      "messageFromHod": "Our department focuses on applying chemical processes for sustainable solutions.",
+      "professors": [
+        { "name": "Prof. Sarah Harris", "subject": "Chemical Reaction Engineering" },
+        { "name": "Prof. James Clark", "subject": "Process Control" }
+      ]
+    },
+    {
+      "name": "Aerospace Engineering",
+      "hod": "Dr. Daniel Miller",
+      "messageFromHod": "We train students to shape the future of flight and space exploration.",
+      "professors": [
+        { "name": "Prof. Thomas Scott", "subject": "Aerodynamics" },
+        { "name": "Prof. Olivia Martinez", "subject": "Spacecraft Design" }
+      ]
+    },
+    {
+      "name": "Biotechnology",
+      "hod": "Dr. Olivia Walker",
+      "messageFromHod": "We aim to integrate biology and technology to improve lives through innovative research.",
+      "professors": [
+        { "name": "Prof. Laura Turner", "subject": "Genetic Engineering" },
+        { "name": "Prof. Paul Young", "subject": "Bioprocessing" }
+      ]
+    },
+    {
+      "name": "Environmental Engineering",
+      "hod": "Dr. Brian Carter",
+      "messageFromHod": "Our department emphasizes environmental sustainability and conservation technologies.",
+      "professors": [
+        { "name": "Prof. Nancy Harris", "subject": "Water Resources Engineering" },
+        { "name": "Prof. Anthony Miller", "subject": "Waste Management" }
+      ]
+    },
+    {
+      "name": "Industrial Engineering",
+      "hod": "Dr. Sophia Wright",
+      "messageFromHod": "We focus on improving processes and systems to optimize production and efficiency.",
+      "professors": [
+        { "name": "Prof. Eric Thompson", "subject": "Operations Research" },
+        { "name": "Prof. Linda Roberts", "subject": "Manufacturing Systems" }
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "hod": "Dr. Patrick King",
+      "messageFromHod": "Our department is committed to producing skilled IT professionals who drive digital transformation.",
+      "professors": [
+        { "name": "Prof. Jonathan Lewis", "subject": "Database Systems" },
+        { "name": "Prof. Megan Scott", "subject": "Networking" }
+      ]
+    }
+  ]
+  

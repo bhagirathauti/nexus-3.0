@@ -1,0 +1,94 @@
+.homepage {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  section {
+    margin: 30px 0;
+  }
+  .college-info {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .about {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .chairman-message {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .placementss {
+    margin-top: 40px;
+  }
+  
+  .placement-cardss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .placement-cardd {
+    background-color: #333;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .placement-cardd:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .student-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .student-info h3 {
+    font-size: 1rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .student-info p {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .placement-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .placement-card {
+      width: 100%;
+    }
+  }
+  

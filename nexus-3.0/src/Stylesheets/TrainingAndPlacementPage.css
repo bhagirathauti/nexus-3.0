@@ -1,0 +1,191 @@
+.training-placement-page {
+    font-family: 'Arial', sans-serif;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .placement-officer-message {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .placement-officer-message h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .placement-officer-message p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .placement-officer-message p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .placement-officer-message p a:hover {
+    text-decoration: underline;
+  }
+  
+  .placement-officer-message p strong {
+    font-size: 1.2rem;
+    color: #007BFF;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .placement-officer-message p:last-child {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  .placement-data h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .year-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .year-selector label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #007BFF;
+  }
+  
+  .year-selector select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    font-weight: bold;
+    outline: none;
+  }
+  
+  .year-selector select:focus {
+    border-color: #007BFF;
+  }
+  
+  .statistics {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .statistics-info {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+  }
+  
+  .statistics-info p {
+    margin: 10px 0;
+  }
+  
+  .placement-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .placement-card {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .placement-card h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  /* Student Cards */
+  .student-card {
+    background-color: #444;
+    color: #fff;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .student-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .student-card h4 {
+    font-size: 1.2rem;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .student-card p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .student-card p:first-child {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .student-card {
+      width: 100%;
+      margin: 15px;
+    }
+  
+    .cards-container {
+      justify-content: space-around;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .student-card {
+      width: 100%;
+      margin: 10px;
+    }
+  
+    .cards-container {
+      justify-content: center;
+    }
+  }
+  

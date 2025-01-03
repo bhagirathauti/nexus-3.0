@@ -1,0 +1,43 @@
+[
+    {
+      "company": "Google",
+      "logo": "/assets/images/google-logo.png"
+    },
+    {
+      "company": "Microsoft",
+      "logo": "/assets/images/microsoft-logo.png"
+    },
+    {
+      "company": "Amazon",
+      "logo": "/assets/images/amazon-logo.png"
+    },
+    {
+      "company": "Apple",
+      "logo": "/assets/images/apple-logo.png"
+    },
+    {
+      "company": "Facebook",
+      "logo": "/assets/images/facebook-logo.png"
+    },
+    {
+      "company": "Tesla",
+      "logo": "/assets/images/tesla-logo.png"
+    },
+    {
+      "company": "Adobe",
+      "logo": "/assets/images/adobe-logo.png"
+    },
+    {
+      "company": "IBM",
+      "logo": "/assets/images/ibm-logo.png"
+    },
+    {
+      "company": "Intel",
+      "logo": "/assets/images/intel-logo.png"
+    },
+    {
+      "company": "Oracle",
+      "logo": "/assets/images/oracle-logo.png"
+    }
+  ]
+  

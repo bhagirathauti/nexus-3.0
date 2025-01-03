@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Kane Williamson",
+      "department": "CSE",
+      "package": "10 LPA",
+      "image": "imageA.jpg"
+    },
+    {
+      "name": "Student B",
+      "department": "IT",
+      "package": "8 LPA",
+      "image": "imageB.jpg"
+    },
+    {
+      "name": "Student C",
+      "department": "E&TC",
+      "package": "9 LPA",
+      "image": "imageC.jpg"
+    },
+    {
+      "name": "Student D",
+      "department": "CSE",
+      "package": "12 LPA",
+      "image": "imageD.jpg"
+    },
+    {
+      "name": "Student E",
+      "department": "IT",
+      "package": "7.5 LPA",
+      "image": "imageE.jpg"
+    },
+    {
+      "name": "Student F",
+      "department": "E&TC",
+      "package": "8.5 LPA",
+      "image": "imageF.jpg"
+    },
+    {
+      "name": "Student G",
+      "department": "CSE",
+      "package": "11 LPA",
+      "image": "imageG.jpg"
+    },
+    {
+      "name": "Student H",
+      "department": "IT",
+      "package": "9 LPA",
+      "image": "imageH.jpg"
+    },
+    {
+      "name": "Student I",
+      "department": "E&TC",
+      "package": "10.5 LPA",
+      "image": "imageI.jpg"
+    },
+    {
+      "name": "Student J",
+      "department": "CSE",
+      "package": "13 LPA",
+      "image": "imageJ.jpg"
+    }
+  ]
+  

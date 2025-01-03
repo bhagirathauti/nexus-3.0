@@ -1,0 +1,98 @@
+[
+    {
+        "club_name": "Microsoft Learning Student Club",
+        "short_message_from_faculty_coordinator": "The Microsoft Learning Student Club focuses on building technical skills through Microsoft technologies and platforms. The club organizes workshops, hackathons, and technical sessions to enhance the students' knowledge.",
+        "faculty_coordinator_name": "Dr. Rajesh Patel",
+        "club_president_name": "Aarav Kumar",
+        "club_email": "microsoftlearning@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Microsoft+Learning+Club"
+    },
+    {
+        "club_name": "Google Developers Student Club",
+        "short_message_from_faculty_coordinator": "The Google Developers Student Club provides a platform to learn and work with cutting-edge Google technologies. We conduct sessions, hackathons, and training programs to help students develop practical skills.",
+        "faculty_coordinator_name": "Prof. Sandeep Sharma",
+        "club_president_name": "Priya Mehta",
+        "club_email": "gdsc@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Google+Developers+Club"
+    },
+    {
+        "club_name": "Institutions Innovation Council",
+        "short_message_from_faculty_coordinator": "The Institutions Innovation Council fosters a spirit of innovation and entrepreneurship among students. The club provides mentorship, resources, and opportunities to create impactful solutions to real-world challenges.",
+        "faculty_coordinator_name": "Dr. Ankit Jain",
+        "club_president_name": "Nisha Patel",
+        "club_email": "innovationcouncil@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Innovation+Council"
+    },
+    {
+        "club_name": "Java Brewers",
+        "short_message_from_faculty_coordinator": "Java Brewers is dedicated to enhancing Java programming skills through collaborative learning, workshops, and projects. The club encourages students to delve deep into the world of Java development and build innovative applications.",
+        "faculty_coordinator_name": "Prof. Vinay Kumar",
+        "club_president_name": "Sohail Khan",
+        "club_email": "javabrewers@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Java+Brewers"
+    },
+    {
+        "club_name": "Codechef",
+        "short_message_from_faculty_coordinator": "The Codechef club is designed to nurture competitive programmers. Students can sharpen their problem-solving and algorithmic skills by participating in coding contests and working on challenging problems.",
+        "faculty_coordinator_name": "Dr. Shikha Agarwal",
+        "club_president_name": "Ravi Shankar",
+        "club_email": "codechef@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Codechef"
+    },
+    {
+        "club_name": "Swift Coding Club",
+        "short_message_from_faculty_coordinator": "The Swift Coding Club is focused on mobile app development using Swift. We provide a creative space for students to explore iOS app development, enhance their coding skills, and develop practical solutions.",
+        "faculty_coordinator_name": "Prof. Rina Verma",
+        "club_president_name": "Ankit Yadav",
+        "club_email": "swiftcoding@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Swift+Coding+Club"
+    },
+    {
+        "club_name": "GeekForGeeks",
+        "short_message_from_faculty_coordinator": "GeekForGeeks is dedicated to honing students' coding and problem-solving abilities. We focus on data structures, algorithms, and computer science fundamentals to help students prepare for competitive programming and job interviews.",
+        "faculty_coordinator_name": "Dr. Meena Soni",
+        "club_president_name": "Deepika Sharma",
+        "club_email": "geekforgeeks@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=GeeksForGeeks"
+    },
+    {
+        "club_name": "NSS (National Service Scheme)",
+        "short_message_from_faculty_coordinator": "NSS empowers students to serve society through various community service programs. The club encourages students to participate in social welfare activities that benefit underprivileged communities and create positive change.",
+        "faculty_coordinator_name": "Prof. Arun Kumar",
+        "club_president_name": "Anjali Gupta",
+        "club_email": "nss@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=NSS"
+    },
+    {
+        "club_name": "Mozzila Student Club",
+        "short_message_from_faculty_coordinator": "The Mozilla Student Club promotes the open-source movement. Students can contribute to Mozilla projects, develop open-source applications, and raise awareness about the benefits of using open-source software.",
+        "faculty_coordinator_name": "Dr. Rajeev Mehta",
+        "club_president_name": "Vikrant Singh",
+        "club_email": "mozillastudent@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Mozilla+Student+Club"
+    },
+    {
+        "club_name": "AWS Student Club",
+        "short_message_from_faculty_coordinator": "The AWS Student Club provides an opportunity to explore cloud computing technologies. We conduct hands-on workshops and training sessions on AWS, enabling students to master cloud-based technologies and solutions.",
+        "faculty_coordinator_name": "Prof. Shubham Joshi",
+        "club_president_name": "Neha Sharma",
+        "club_email": "awsstudent@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=AWS+Student+Club"
+    },
+    {
+        "club_name": "Cloud Computing Club",
+        "short_message_from_faculty_coordinator": "The Cloud Computing Club is dedicated to helping students learn about cloud infrastructure, platforms, and services. We organize workshops, technical talks, and projects to help students develop expertise in cloud computing.",
+        "faculty_coordinator_name": "Dr. Nisha Agarwal",
+        "club_president_name": "Rohit Kumar",
+        "club_email": "cloudcomputing@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=Cloud+Computing+Club"
+    },
+    {
+        "club_name": "TEDx Club",
+        "short_message_from_faculty_coordinator": "The TEDx Club provides a platform for students to share their ideas worth spreading. We organize TEDx events, where students can deliver inspiring talks, collaborate, and engage with thought leaders.",
+        "faculty_coordinator_name": "Prof. Kiran Mehta",
+        "club_president_name": "Siddhi Jain",
+        "club_email": "tedxclub@college.edu",
+        "placeholderImage": "https://via.placeholder.com/150?text=TEDx+Club"
+    }
+]
