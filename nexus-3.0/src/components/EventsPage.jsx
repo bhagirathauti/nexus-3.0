@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import eventsData from '../assets/events.json';
+import toast,{ Toaster } from 'react-hot-toast';
 import '../Stylesheets/EventsPage.css';
 
 const EventsPage = () => {
@@ -9,7 +10,7 @@ const EventsPage = () => {
   );
 
   const handleRegister = (eventName) => {
-    alert(`Thank you for registering for ${eventName}!`);
+    toast.success(`Thank you for registering for ${eventName}!`);
   };
 
   return (
@@ -43,7 +44,7 @@ const EventsPage = () => {
                 className="register-button"
                 onClick={() => handleRegister(event.EventName)}
               >
-                Register Now
+                Register
               </button>
             </div>
           ))
@@ -51,6 +52,7 @@ const EventsPage = () => {
           <p>No events found.</p>
         )}
       </div>
+      <Toaster />
     </div>
   );
 };

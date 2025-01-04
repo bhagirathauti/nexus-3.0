@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../Stylesheets/TrainingAndPlacementPage.css';
 import placementData from '../assets/allplacements.json';
+import CompanyGrid from './CompanyGrid';
 
 const TrainingAndPlacementPage = () => {
     const [selectedYear, setSelectedYear] = useState('');
@@ -23,11 +24,14 @@ const TrainingAndPlacementPage = () => {
             <section className="placement-officer-message">
                 <h2>Message from the Placement Officer's Desk</h2>
                 <p>
-                    "At BITS Sindri, we believe in empowering our students to excel not only academically but also in their professional careers. Our dedicated Placement Cell works tirelessly to bridge the gap between students and the corporate world by offering specialized training programs, career counseling, resume-building workshops, and mock interviews. We aim to ensure that our students are well-prepared to face the competitive job market. We collaborate with leading national and international companies to bring exciting career opportunities to our students, focusing on placements that align with their aspirations. Through a personalized approach, we ensure that every student is supported throughout the process, from guidance to career placement. We also organize industry visits and real-world business scenario workshops to help students gain practical knowledge. The success of our placement initiatives is a direct result of our team's dedication, and I personally ensure that each student gets the best chance to secure a top-tier role. I encourage all students to take full advantage of the resources available to them. Together, we will continue to shape the leaders of tomorrow. Feel free to contact me for further assistance."
+                    "At GIT, we believe in empowering our students to excel not only academically but also in their professional careers. Our dedicated Placement Cell works tirelessly to bridge the gap between students and the corporate world by offering specialized training programs, career counseling, resume-building workshops, and mock interviews. We aim to ensure that our students are well-prepared to face the competitive job market. We collaborate with leading national and international companies to bring exciting career opportunities to our students, focusing on placements that align with their aspirations. Through a personalized approach, we ensure that every student is supported throughout the process, from guidance to career placement. We also organize industry visits and real-world business scenario workshops to help students gain practical knowledge. The success of our placement initiatives is a direct result of our team's dedication, and I personally ensure that each student gets the best chance to secure a top-tier role. I encourage all students to take full advantage of the resources available to them. Together, we will continue to shape the leaders of tomorrow. Feel free to contact me for further assistance."
                 </p>
                 <h3><strong>Mr. Ravi Kumar</strong></h3>
                 <h3>Placement Officer, BITS Sindri</h3>
                 <h3>Contact: <a href="tel:+919876543210">+91 98765 43210</a></h3>
+            </section>
+            <section className="top-recruiters">
+                <CompanyGrid/>
             </section>
             <section className="placement-data">
                 <h2>Year-wise Placement Data</h2>

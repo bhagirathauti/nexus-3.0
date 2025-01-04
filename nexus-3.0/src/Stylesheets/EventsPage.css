@@ -51,6 +51,7 @@ h2 {
 .event-details {
   padding: 15px;
   flex: 1;
+  height: auto;
 }
 
 .event-details h2 {
@@ -71,7 +72,7 @@ h2 {
   right: 10px;
   padding: 10px 20px;
   font-size: 14px;
-  background-color: #007bff;
+  background-color: #5965ee;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -84,4 +85,35 @@ h2 {
 
 .event-details p:last-child {
   margin-bottom: 40px;
+}
+@media(max-width:480px){
+  .event-card{
+    width: 150px;
+    height: 200px;
+  }
+  .event-image{
+    height: 120px;
+  }
+  .event-details{
+    height: auto;
+    padding: 5px;
+  }
+  .event-details h2{
+    font-size: 14px;
+  }
+  .event-details p{
+    font-size: 12px;
+  }
+  .event-details p:last-child{
+    margin-bottom: 10px;
+  }
+  .events-container{
+    gap:10px
+  }
+  .events-page{
+    padding: 20px 0px;
+  }
+  .register-button{
+    font-size: 9px;
+  }
 }

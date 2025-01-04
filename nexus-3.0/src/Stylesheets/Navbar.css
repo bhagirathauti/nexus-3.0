@@ -1,10 +1,12 @@
-/* General Navbar Styles */
 .navbar {
+    position:sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #007BFF;
     padding: 10px 20px;
+    z-index: 1;
   }
   
   .navbar-left {
@@ -18,21 +20,30 @@
     font-weight: bold;
   }
   
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
   .navbar-right {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    gap: 15px;
   }
   
-  .navbar-link,
-  .logout-button {
+  .navbar-link {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    margin-left: 10px;
     background-color: transparent;
-    border: none;
-    cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
   }
@@ -40,61 +51,27 @@
   .navbar-link:hover {
     background-color: #555;
   }
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
   
-  /* Logout button specific style */
-  .logout-button {
-    color: white;
-    background-color: red; /* Red background */
-    border-radius: 5px;
-  }
+    .navbar-right {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 60px; 
+      right: 0;
+      width: 200px; 
+      padding: 10px;
+      border-radius: 0 0 5px 5px; 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      z-index: 1000; 
+    }
   
-  .logout-button:hover {
-    background-color: darkred; /* Darker red on hover */
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropbtn {
-    background-color: transparent;
-    color: white;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-  }
-  
-  .dropbtn:hover {
-    background-color: #555;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    z-index: 1;
-    border-radius: 5px;
-    margin-top: 5px;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown-item {
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #555;
+    .navbar-right.expanded {
+      display: flex;
+    }
   }
   

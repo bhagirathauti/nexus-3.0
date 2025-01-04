@@ -10,6 +10,8 @@ import TrainingAndPlacementPage from './components/TrainingAndPlacementPage';
 import AdmissionsPage from './components/AdmissionsPage';
 import ClubsPage from './components/ClubsPage';
 import "./App.css"
+import Gallery from './components/Gallery';
+import BackToTop from './components/BackToTop';
 
 function App() {
   const handleLogout = () => {
@@ -27,10 +29,12 @@ function App() {
           <Route path='/placements' element={<TrainingAndPlacementPage/>}/>
           <Route path='/admission-info' element={<AdmissionsPage/>}/>
           <Route path='/clubs' element={<ClubsPage/>}/>
+          <Route path='/gallery' element={<Gallery/>}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <Footer/>
+      <BackToTop/>
     </Router>
   );
 }

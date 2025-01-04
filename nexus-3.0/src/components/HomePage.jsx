@@ -1,16 +1,15 @@
 import React from 'react';
 import '../Stylesheets/HomePage.css';
 import placementsData from '../assets/placements.json';
-import CompanyGrid from './CompanyGrid';
+import BackgroundVideo from './BackgroundVideo.jsx';
+import StatsSection from './StatsSection.jsx';
 
 const HomePage = () => {
     return (
+        <>
+        <BackgroundVideo/>
+        <StatsSection/>
         <div className="homepage">
-            <section className="college-info">
-                <h1>Welcome to BITS, Sindri</h1>
-                <p>Providing excellence in education and innovation since 1980. BITS Sindri has established itself as one of the leading institutions in the region, consistently providing students with a platform to achieve their academic and career goals. Located in the heart of Sindri, our college boasts a vibrant campus equipped with modern infrastructure and facilities, designed to foster creativity, research, and innovation.</p>
-                <p>We are committed to creating a learning environment where students are inspired to pursue their dreams and develop a strong sense of responsibility, leadership, and global awareness. Our institution is known for its rigorous academic programs, world-class faculty, and excellent industry linkages that prepare students for successful careers.</p>
-            </section>
             <section className="about">
                 <h1>About Us</h1>
                 <p>Our college is dedicated to nurturing talent and fostering growth through world-class education. We offer a wide range of undergraduate and postgraduate programs designed to equip our students with the skills they need to excel in their careers and make meaningful contributions to society. Our commitment to providing a holistic education is reflected in our well-rounded curriculum, which blends academic rigor with practical exposure through internships, projects, and industry collaborations.</p>
@@ -52,8 +51,8 @@ const HomePage = () => {
                     )}
                 </div>
             </section>
-            <CompanyGrid />
         </div>
+        </>
     );
 };
 

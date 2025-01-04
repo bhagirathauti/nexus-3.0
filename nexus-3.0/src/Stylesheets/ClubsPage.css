@@ -43,7 +43,7 @@
   }
   
   .club-logo {
-    width: 100px;
+    width: auto;
     height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
@@ -62,4 +62,25 @@
     font-size: 0.7rem;
     color: #fff;
   }
-  
+  @media(max-width:480px){
+    .faculty-message h4,.club-president h4{
+      font-size: 0.5rem;
+    }
+    .faculty-message p,.club-president p{
+      font-size: 0.4rem;
+    }
+    .club-card{
+      width: 150px;
+      height: 250px;
+      margin: 10px 0px;
+      padding: 10px;
+    }
+    .clubs-page{
+      margin: 20px 0px;
+    }
+    .club-logo{
+      height: 50px;
+      width: auto;
+      margin: 0px;
+    }
+  }

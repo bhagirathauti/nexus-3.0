@@ -1,6 +1,6 @@
 .training-placement-page {
     font-family: 'Arial', sans-serif;
-    padding: 50px 20px;
+    padding: 30px 20px;
     background-color: #f7f7f7;
     color: #333;
   }
@@ -8,25 +8,11 @@
   .placement-officer-message {
     background-color: #f5f5f5;
     color: #333;
-    padding: 40px 20px;
+    padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
     margin-bottom: 40px;
-  }
-  
-  .placement-officer-message h2 {
-    font-size: 2rem;
-    color: #007BFF;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .placement-officer-message p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    text-align: justify;
-    margin-bottom: 20px;
-    color: #555;
   }
   
   .placement-officer-message p a {
@@ -135,8 +121,6 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  
-  /* Student Cards */
   .student-card {
     background-color: #444;
     color: #fff;
@@ -179,6 +163,13 @@
   }
   
   @media (max-width: 480px) {
+    .training-placement-page{
+      padding: 20px 10px;
+    }
+    .training-placement-page h1{
+      font-size: 16px;
+      margin: 0px 0px 20px;
+    }
     .student-card {
       width: 100%;
       margin: 10px;
@@ -186,6 +177,33 @@
   
     .cards-container {
       justify-content: center;
+    }
+    .placement-data h2{
+      font-size: 1rem;
+    }
+    .placement-data label{
+      font-size: 1rem;
+    }
+    .placement-data select{
+      font-size: 0.7rem;
+      padding:8px;
+    }
+    h3{
+      font-size: 0.9rem;
+    }
+    .placement-card{
+      margin:10px 0px;
+      padding: 10px 0px;
+    }
+    .student-card{
+      width: 100px;
+      height: 100px;
+    }
+    .student-card h4{
+      font-size: 0.8rem;
+    }
+    .student-card p{
+      font-size: 0.7rem;
     }
   }
   

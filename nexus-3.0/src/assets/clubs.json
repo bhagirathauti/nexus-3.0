@@ -5,7 +5,7 @@
         "faculty_coordinator_name": "Dr. Rajesh Patel",
         "club_president_name": "Aarav Kumar",
         "club_email": "microsoftlearning@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Microsoft+Learning+Club"
+        "placeholderImage": "/public/logos/microsoft.png"
     },
     {
         "club_name": "Google Developers Student Club",
@@ -13,7 +13,7 @@
         "faculty_coordinator_name": "Prof. Sandeep Sharma",
         "club_president_name": "Priya Mehta",
         "club_email": "gdsc@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Google+Developers+Club"
+        "placeholderImage": "/public/logos/google.png"
     },
     {
         "club_name": "Institutions Innovation Council",
@@ -21,7 +21,7 @@
         "faculty_coordinator_name": "Dr. Ankit Jain",
         "club_president_name": "Nisha Patel",
         "club_email": "innovationcouncil@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Innovation+Council"
+        "placeholderImage": "/public/logos/iic.png"
     },
     {
         "club_name": "Java Brewers",
@@ -29,7 +29,7 @@
         "faculty_coordinator_name": "Prof. Vinay Kumar",
         "club_president_name": "Sohail Khan",
         "club_email": "javabrewers@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Java+Brewers"
+        "placeholderImage": "/public/logos/java.png"
     },
     {
         "club_name": "Codechef",
@@ -37,15 +37,15 @@
         "faculty_coordinator_name": "Dr. Shikha Agarwal",
         "club_president_name": "Ravi Shankar",
         "club_email": "codechef@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Codechef"
+        "placeholderImage": "/public/logos/codechef.png"
     },
     {
-        "club_name": "Swift Coding Club",
+        "club_name": "apple Swift Coding Club",
         "short_message_from_faculty_coordinator": "The Swift Coding Club is focused on mobile app development using Swift. We provide a creative space for students to explore iOS app development, enhance their coding skills, and develop practical solutions.",
         "faculty_coordinator_name": "Prof. Rina Verma",
         "club_president_name": "Ankit Yadav",
         "club_email": "swiftcoding@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Swift+Coding+Club"
+        "placeholderImage": "/public/logos/swift.png"
     },
     {
         "club_name": "GeekForGeeks",
@@ -53,7 +53,7 @@
         "faculty_coordinator_name": "Dr. Meena Soni",
         "club_president_name": "Deepika Sharma",
         "club_email": "geekforgeeks@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=GeeksForGeeks"
+        "placeholderImage": "/public/logos/gfg.png"
     },
     {
         "club_name": "NSS (National Service Scheme)",
@@ -61,7 +61,7 @@
         "faculty_coordinator_name": "Prof. Arun Kumar",
         "club_president_name": "Anjali Gupta",
         "club_email": "nss@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=NSS"
+        "placeholderImage": "/public/logos/nss.png"
     },
     {
         "club_name": "Mozzila Student Club",
@@ -69,15 +69,15 @@
         "faculty_coordinator_name": "Dr. Rajeev Mehta",
         "club_president_name": "Vikrant Singh",
         "club_email": "mozillastudent@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Mozilla+Student+Club"
+        "placeholderImage": "/public/logos/mozilla.png"
     },
     {
-        "club_name": "AWS Student Club",
+        "club_name": "amazon AWS Student Club",
         "short_message_from_faculty_coordinator": "The AWS Student Club provides an opportunity to explore cloud computing technologies. We conduct hands-on workshops and training sessions on AWS, enabling students to master cloud-based technologies and solutions.",
         "faculty_coordinator_name": "Prof. Shubham Joshi",
         "club_president_name": "Neha Sharma",
         "club_email": "awsstudent@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=AWS+Student+Club"
+        "placeholderImage": "/public/logos/amazon.png"
     },
     {
         "club_name": "Cloud Computing Club",
@@ -85,7 +85,7 @@
         "faculty_coordinator_name": "Dr. Nisha Agarwal",
         "club_president_name": "Rohit Kumar",
         "club_email": "cloudcomputing@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=Cloud+Computing+Club"
+        "placeholderImage": "/public/logos/ccc.png"
     },
     {
         "club_name": "TEDx Club",
@@ -93,6 +93,6 @@
         "faculty_coordinator_name": "Prof. Kiran Mehta",
         "club_president_name": "Siddhi Jain",
         "club_email": "tedxclub@college.edu",
-        "placeholderImage": "https://via.placeholder.com/150?text=TEDx+Club"
+        "placeholderImage": "/public/logos/tedx.png"
     }
 ]

@@ -18,7 +18,7 @@
   
   .tab {
     padding: 15px 25px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin: 0 10px;
     background-color: #f0f0f0;
     border: none;
@@ -142,7 +142,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007BFF;
+    background-color: red;
     color: white;
     padding: 15px 30px;
     font-size: 16px;
@@ -156,3 +156,28 @@
     background-color: #034b98;
   }
   
+  @media(max-width:480px){
+    .tabs{
+      margin: 0px 0px 15px;
+    }
+    .tab{
+      width: auto;
+      height: auto;
+      padding: 5px;
+      margin:5px
+    }
+    .tab button {
+      font-size: 8px;
+    }
+    h1{
+      font-size: 1.5rem;
+      margin: 0px 0px 10px 0px;
+    }
+    h2{
+      font-size: 1rem;
+    }
+    .enquire-btn{
+      padding: 10px 10px;
+      font-size: 10px;
+    }
+  }
