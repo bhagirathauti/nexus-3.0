@@ -5,10 +5,6 @@
   padding:0px;
   font-family: 'Poppins', sans-serif;
 }
-h2{
-  font-size: 2rem;
-  color: #007BFF;
-}
 @media(max-width:480px){
   h2{
     font-size: 1rem;

@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "title": "Assistant Professor - Computer Science",
+      "description": "Teach undergraduate courses in Computer Science. Requires a Master's degree.",
+      "applicants": 10,
+      "openings": 3
+    },
+    {
+      "id": 2,
+      "title": "Lab Technician",
+      "description": "Manage lab equipment and assist in lab sessions.",
+      "applicants": 5,
+      "openings": 2
+    },
+    {
+      "id": 3,
+      "title": "Administrative Assistant",
+      "description": "Support administrative tasks and handle communications.",
+      "applicants": 7,
+      "openings": 4
+    },
+    {
+      "id": 4,
+      "title": "Librarian",
+      "description": "Manage library resources and assist students with research.",
+      "applicants": 2,
+      "openings": 1
+    }
+  ]
+  

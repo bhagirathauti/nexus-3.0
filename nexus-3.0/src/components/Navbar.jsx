@@ -40,6 +40,9 @@ const Navbar = () => {
         <Link to="/gallery" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
           Gallery
         </Link>
+        <Link to="/careers" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
+          Careers
+        </Link>
       </div>
     </nav>
   );

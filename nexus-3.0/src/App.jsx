@@ -12,6 +12,7 @@ import ClubsPage from './components/ClubsPage';
 import "./App.css"
 import Gallery from './components/Gallery';
 import BackToTop from './components/BackToTop';
+import Careers from './components/Careers';
 
 function App() {
   const handleLogout = () => {
@@ -30,6 +31,7 @@ function App() {
           <Route path='/admission-info' element={<AdmissionsPage/>}/>
           <Route path='/clubs' element={<ClubsPage/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/careers' element={<Careers/>}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
