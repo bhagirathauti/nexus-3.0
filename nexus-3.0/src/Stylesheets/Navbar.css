@@ -49,7 +49,7 @@
   }
   
   .navbar-link:hover {
-    background-color: #555;
+    background-color: #045dbb;
   }
   @media (max-width: 768px) {
     .hamburger {

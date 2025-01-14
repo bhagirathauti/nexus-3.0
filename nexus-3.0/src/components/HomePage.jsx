@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheets/HomePage.css';
 import placementsData from '../assets/placements.json';
-import BackgroundVideo from './BackgroundVideo.jsx';
+import BackgroundVideo from './BackgroundVideo';
 import StatsSection from './StatsSection.jsx';
 
 const HomePage = () => {

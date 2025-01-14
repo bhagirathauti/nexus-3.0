@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import '../Stylesheets/Navbar.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "../Stylesheets/Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ onAnnouncementsClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -21,26 +21,56 @@ const Navbar = () => {
         <span></span>
         <span></span>
       </div>
-      <div className={`navbar-right ${isMenuOpen ? 'expanded' : ''}`}>
-        <Link to="/admission-info" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
+      <div className={`navbar-right ${isMenuOpen ? "expanded" : ""}`}>
+        <Link
+          to="/admission-info"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Admissions
         </Link>
-        <Link to="/placements" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
+        <Link
+          className="navbar-link"
+          onClick={() => {
+            onAnnouncementsClick();
+            setIsMenuOpen(false);
+          }}
+        >
+          Announcements
+        </Link>
+        <Link
+          to="/placements"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Placements
         </Link>
-        <Link to="/departments" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
+        <Link
+          to="/departments"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Departments
         </Link>
-        <Link to="/events" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
-          Events
-        </Link>
-        <Link to="/clubs" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
+        <Link
+          to="/clubs"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Clubs
         </Link>
-        <Link to="/gallery" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
+        <Link
+          to="/gallery"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Gallery
         </Link>
-        <Link to="/careers" className="navbar-link" onClick={() => setIsMenuOpen(false)}>
+        <Link
+          to="/careers"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Careers
         </Link>
       </div>

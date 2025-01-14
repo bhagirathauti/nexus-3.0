@@ -13,15 +13,24 @@ import "./App.css"
 import Gallery from './components/Gallery';
 import BackToTop from './components/BackToTop';
 import Careers from './components/Careers';
+import NoticeBoard from './components/NoticeBoard';
 
 function App() {
   const handleLogout = () => {
     alert('Logged out!');
   };
+  const [isNoticeBoardOpen, setIsNoticeBoardOpen] = useState(false);
 
+  const toggleNoticeBoard = () => {
+    setIsNoticeBoardOpen(!isNoticeBoardOpen);
+  };
   return (
     <Router>
-      <Navbar onLogout={handleLogout} />
+      <Navbar onAnnouncementsClick={toggleNoticeBoard} />
+      <NoticeBoard 
+        isOpen={isNoticeBoardOpen} 
+        onClose={() => setIsNoticeBoardOpen(false)} 
+      />
       <div className="content">
         <Routes>
           <Route path="/" element={<HomePage />} />

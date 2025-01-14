@@ -33,10 +33,9 @@
     justify-content: space-around;
   }
   .department-card {
-    background-color: #333;
-    border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
+    border: 1px solid #ddd;
     margin: 10px 0px;
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -61,13 +60,13 @@
   
   .hod-message h4 {
     font-size: 1rem;
-    color: #ffF;
+    color: #000;
     font-weight: bold;
   }
   
   .hod-message p {
     font-size: 0.7rem;
-    color: #fff;
+    color: #000;
     line-height: 1.5;
   }
   .professors {
@@ -77,7 +76,7 @@
   .professors h4 {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #fff;
+    color: #000;
   }
   
   .professors ul {
@@ -88,17 +87,17 @@
   
   .professors li {
     font-size: 0.8rem;
-    color: #fff;
+    color: #000;
     margin-bottom: 10px;
   }
   
   .professors li strong {
-    color: #fff;
+    color: #000;
   }
   .department-cards-container p {
     text-align: center;
     font-size: 0.7rem;
-    color: #fff;
+    color: #000;
     margin-top: 20px;
   }
   @media(max-width:480px){
