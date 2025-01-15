@@ -5,7 +5,7 @@
         "faculty_coordinator_name": "Dr. Rajesh Patel",
         "club_president_name": "Aarav Kumar",
         "club_email": "microsoftlearning@college.edu",
-        "placeholderImage": "/public/logos/microsoft.png"
+        "placeholderImage": "/logos/microsoft.png"
     },
     {
         "club_name": "Google Developers Student Club",
@@ -13,7 +13,7 @@
         "faculty_coordinator_name": "Prof. Sandeep Sharma",
         "club_president_name": "Priya Mehta",
         "club_email": "gdsc@college.edu",
-        "placeholderImage": "/public/logos/google.png"
+        "placeholderImage": "/logos/google.png"
     },
     {
         "club_name": "Institutions Innovation Council",
@@ -29,7 +29,7 @@
         "faculty_coordinator_name": "Prof. Vinay Kumar",
         "club_president_name": "Sohail Khan",
         "club_email": "javabrewers@college.edu",
-        "placeholderImage": "/public/logos/java.png"
+        "placeholderImage": "/logos/java.png"
     },
     {
         "club_name": "Codechef",
@@ -37,7 +37,7 @@
         "faculty_coordinator_name": "Dr. Shikha Agarwal",
         "club_president_name": "Ravi Shankar",
         "club_email": "codechef@college.edu",
-        "placeholderImage": "/public/logos/codechef.png"
+        "placeholderImage": "/logos/codechef.png"
     },
     {
         "club_name": "apple Swift Coding Club",
@@ -45,7 +45,7 @@
         "faculty_coordinator_name": "Prof. Rina Verma",
         "club_president_name": "Ankit Yadav",
         "club_email": "swiftcoding@college.edu",
-        "placeholderImage": "/public/logos/swift.png"
+        "placeholderImage": "/logos/swift.png"
     },
     {
         "club_name": "GeekForGeeks",
@@ -53,7 +53,7 @@
         "faculty_coordinator_name": "Dr. Meena Soni",
         "club_president_name": "Deepika Sharma",
         "club_email": "geekforgeeks@college.edu",
-        "placeholderImage": "/public/logos/gfg.png"
+        "placeholderImage": "/logos/gfg.png"
     },
     {
         "club_name": "NSS (National Service Scheme)",
@@ -61,7 +61,7 @@
         "faculty_coordinator_name": "Prof. Arun Kumar",
         "club_president_name": "Anjali Gupta",
         "club_email": "nss@college.edu",
-        "placeholderImage": "/public/logos/nss.png"
+        "placeholderImage": "/logos/nss.png"
     },
     {
         "club_name": "Mozzila Student Club",
@@ -69,7 +69,7 @@
         "faculty_coordinator_name": "Dr. Rajeev Mehta",
         "club_president_name": "Vikrant Singh",
         "club_email": "mozillastudent@college.edu",
-        "placeholderImage": "/public/logos/mozilla.png"
+        "placeholderImage": "/logos/mozilla.png"
     },
     {
         "club_name": "amazon AWS Student Club",
@@ -77,7 +77,7 @@
         "faculty_coordinator_name": "Prof. Shubham Joshi",
         "club_president_name": "Neha Sharma",
         "club_email": "awsstudent@college.edu",
-        "placeholderImage": "/public/logos/amazon.png"
+        "placeholderImage": "/logos/amazon.png"
     },
     {
         "club_name": "Cloud Computing Club",
@@ -85,7 +85,7 @@
         "faculty_coordinator_name": "Dr. Nisha Agarwal",
         "club_president_name": "Rohit Kumar",
         "club_email": "cloudcomputing@college.edu",
-        "placeholderImage": "/public/logos/ccc.png"
+        "placeholderImage": "/logos/ccc.png"
     },
     {
         "club_name": "TEDx Club",
@@ -93,6 +93,6 @@
         "faculty_coordinator_name": "Prof. Kiran Mehta",
         "club_president_name": "Siddhi Jain",
         "club_email": "tedxclub@college.edu",
-        "placeholderImage": "/public/logos/tedx.png"
+        "placeholderImage": "/logos/tedx.png"
     }
 ]

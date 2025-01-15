@@ -1,75 +1,75 @@
 [
     {
       "company": "Google",
-      "logo": "/public/logos/google.png"
+      "logo": "/logos/google.png"
     },
     {
       "company": "Microsoft",
-      "logo": "/public/logos/microsoft.png"
+      "logo": "/logos/microsoft.png"
     },
     {
       "company": "Amazon",
-      "logo": "/public/logos/amazon.png"
+      "logo": "/logos/amazon.png"
     },
     {
       "company": "Apple",
-      "logo": "/public/logos/apple.png"
+      "logo": "/logos/apple.png"
     },
     {
       "company": "Facebook",
-      "logo": "/public/logos/facebook.png"
+      "logo": "/logos/facebook.png"
     },
     {
       "company": "Tesla",
-      "logo": "/public/logos/tesla.png"
+      "logo": "/logos/tesla.png"
     },
     {
       "company": "Adobe",
-      "logo": "/public/logos/adobe.png"
+      "logo": "/logos/adobe.png"
     },
     {
       "company": "IBM",
-      "logo": "/public/logos/ibm.png"
+      "logo": "/logos/ibm.png"
     },
     {
       "company": "Intel",
-      "logo": "/public/logos/intel.png"
+      "logo": "/logos/intel.png"
     },
     {
       "company": "Oracle",
-      "logo": "/public/logos/oracle.png"
+      "logo": "/logos/oracle.png"
     },
     {
       "company": "Dell",
-      "logo": "/public/logos/dell.png"
+      "logo": "/logos/dell.png"
     },
     {
       "company": "Samsung",
-      "logo": "/public/logos/samsung.png"
+      "logo": "/logos/samsung.png"
     },
     {
       "company": "BMW",
-      "logo": "/public/logos/bmw.png"
+      "logo": "/logos/bmw.png"
     },
     {
       "company": "TCS",
-      "logo": "/public/logos/tcs.png"
+      "logo": "/logos/tcs.png"
     },
     {
       "company": "Infosys",
-      "logo": "/public/logos/infosys.png"
+      "logo": "/logos/infosys.png"
     },
     {
       "company": "X",
-      "logo": "/public/logos/x.png"
+      "logo": "/logos/x.png"
     },
     {
       "company": "Snapdragon",
-      "logo": "/public/logos/snapdragon.png"
+      "logo": "/logos/snapdragon.png"
     },
     {
       "company": "SONY",
-      "logo": "/public/logos/sony.png"
+      "logo": "/logos/sony.png"
     }
   ]
   
