@@ -2,6 +2,8 @@ GIT,Pune (Built with React)
 
 This is a responsive college website built using Vite and React. The website showcases various features and sections that highlight the college's offerings, achievements, and essential information for students, parents, and visitors.
 
+# Website Live Link: https://nexus-3-0.vercel.app/
+
 # Features
 
 1. Admissions Page
