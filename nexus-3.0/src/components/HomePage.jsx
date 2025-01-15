@@ -1,13 +1,13 @@
 import React from 'react';
 import '../Stylesheets/HomePage.css';
 import placementsData from '../assets/placements.json';
-import BackgroundVideo from './BackgroundVideo';
+import BackgroundImage from './BackgroundImage.jsx';
 import StatsSection from './StatsSection.jsx';
 
 const HomePage = () => {
     return (
         <>
-        <BackgroundVideo/>
+        <BackgroundImage/>
         <StatsSection/>
         <div className="homepage">
             <section className="about">

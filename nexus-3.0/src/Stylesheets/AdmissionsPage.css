@@ -55,8 +55,8 @@
   }
   
   .intake-table th {
-    background-color: #333;
-    color: #007BFF;
+    background-color: #007BFF;
+    color: #f9f9f9;
   }
   
   .intake-table tr:nth-child(even) {
@@ -69,7 +69,7 @@
   
   .intake-table td strong {
     font-size: 1.2rem;
-    color: #007BFF;
+    color: black;
   }
 .modal {
     position: fixed;
