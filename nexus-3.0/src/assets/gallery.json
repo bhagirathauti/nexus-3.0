@@ -1,101 +1,101 @@
 [
     {
-      "url": "/public/galleryimages/galleryimg1.jpg",
+      "url": "/galleryimages/galleryimg1.jpg",
       "description": "Beautiful Sunset Over the Mountains",
       "date": "2024-01-01"
     },
     {
-      "url": "/public/galleryimages/galleryimg2.png",
+      "url": "/galleryimages/galleryimg2.png",
       "description": "A Calm Beach on a Summer Day",
       "date": "2024-02-14"
     },
     {
-      "url": "/public/galleryimages/galleryimg3.jpg",
+      "url": "/galleryimages/galleryimg3.jpg",
       "description": "A Scenic View of the City Skyline",
       "date": "2024-03-10"
     },
     {
-      "url": "/public/galleryimages/galleryimg4.jpg",
+      "url": "/galleryimages/galleryimg4.jpg",
       "description": "Peaceful Forest Pathway",
       "date": "2024-04-22"
     },
     {
-      "url": "/public/galleryimages/galleryimg5.jpeg",
+      "url": "/galleryimages/galleryimg5.jpeg",
       "description": "Snowy Mountains in Winter",
       "date": "2024-05-17"
     },
     {
-      "url": "/public/galleryimages/galleryimg6.jpeg",
+      "url": "/galleryimages/galleryimg6.jpeg",
       "description": "A Beautiful Field of Flowers",
       "date": "2024-06-05"
     },
     {
-      "url": "/public/galleryimages/galleryimg7.jpeg",
+      "url": "/galleryimages/galleryimg7.jpeg",
       "description": "Vibrant Street Art on a Building",
       "date": "2024-07-11"
     },
     {
-      "url": "/public/galleryimages/galleryimg8.jpg",
+      "url": "/galleryimages/galleryimg8.jpg",
       "description": "Candlelit Dinner in a Cozy Restaurant",
       "date": "2024-08-19"
     },
     {
-      "url": "/public/galleryimages/galleryimg2.png",
+      "url": "/galleryimages/galleryimg2.png",
       "description": "Ancient Ruins at Sunset",
       "date": "2024-09-02"
     },
     {
-      "url": "/public/galleryimages/galleryimg10.jpg",
+      "url": "/galleryimages/galleryimg10.jpg",
       "description": "Mountain Lake with Crystal Clear Water",
       "date": "2024-10-14"
     },
     {
-      "url": "/public/galleryimages/galleryimg20.jpeg",
+      "url": "/galleryimages/galleryimg20.jpeg",
       "description": "A Relaxing Morning by the Lake",
       "date": "2024-11-03"
     },
     {
-      "url": "/public/galleryimages/galleryimg12.jpeg",
+      "url": "/galleryimages/galleryimg12.jpeg",
       "description": "Golden Fields at Harvest Time",
       "date": "2024-12-12"
     },
     {
-      "url": "/public/galleryimages/galleryimg13.jpg",
+      "url": "/galleryimages/galleryimg13.jpg",
       "description": "Tropical Paradise with Clear Blue Waters",
       "date": "2025-01-08"
     },
     {
-      "url": "/public/galleryimages/galleryimg14.jpeg",
+      "url": "/galleryimages/galleryimg14.jpeg",
       "description": "Sunrise at the Beach with Waves Crashing",
       "date": "2025-02-15"
     },
     {
-      "url": "/public/galleryimages/galleryimg15.jpeg",
+      "url": "/galleryimages/galleryimg15.jpeg",
       "description": "Aerial View of a Bustling City Center",
       "date": "2025-03-28"
     },
     {
-      "url": "/public/galleryimages/galleryimg16.jpeg",
+      "url": "/galleryimages/galleryimg16.jpeg",
       "description": "Serene Countryside Landscape",
       "date": "2025-04-22"
     },
     {
-      "url": "/public/galleryimages/galleryimg17.jpeg",
+      "url": "/galleryimages/galleryimg17.jpeg",
       "description": "Vintage Car on a Scenic Road",
       "date": "2025-05-17"
     },
     {
-      "url": "/public/galleryimages/galleryimg18.jpg",
+      "url": "/galleryimages/galleryimg18.jpg",
       "description": "A Calm Evening at the Harbor",
       "date": "2025-06-01"
     },
     {
-      "url": "/public/galleryimages/galleryimg19.jpeg",
+      "url": "/galleryimages/galleryimg19.jpeg",
       "description": "Majestic Mountain Peaks with Clouds",
       "date": "2025-07-10"
     },
     {
-      "url": "/public/galleryimages/galleryimg20.jpeg",
+      "url": "/galleryimages/galleryimg20.jpeg",
       "description": "Night Sky Filled with Stars",
       "date": "2025-08-15"
     }
